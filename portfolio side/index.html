@@ -8,6 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport” content="width="device-width", initial-scale="1">
         <link rel="icon" sizes="32x32" type="image/png" href="">
+        <link rel="stylesheet" link="/portfolio side/style.css">
     </head>
     <body>
         <header>
@@ -82,6 +83,33 @@
                     </figure>
                 </dd>
              </dl>
+             <h2>My Projects:</h2>
+            <div class="card1">
+                <input type="radio" id="Project_view1" name="p1" checked>
+                <input type="radio" id="Project_view2" name="p1">
+                <input type="radio" id="Project_view3" name="p1">
+                <div class="card_panel1">
+                    <img src="/presentation website/images/picture_of_pizza.png">
+                </div>
+                <div class="card_panel2">
+                    <h3>Pizza-recipe</h3>
+                    <ul>
+                        <li>needed ingredients</li>
+                        <li>Recipe</li>
+                        <li>contact</li>
+                    </ul>
+                </div>
+                <div class="card_panel3">
+                    <h3>Links</h3>
+                    <li>Link to Github:</li>
+                    <li>Link to Website:</li>
+                </div>
+                <div class="card__controls" role="tablist" aria-label="Kartenansichten">
+                    <label for="Project_view1" role="tab" aria-selected="true" aria-controls="john-panel-1" title="Bild"></label>
+                    <label for="Project_view2" role="tab" aria-controls="card_panel2" title="Infos"></label>
+                    <label for="Project_view3" role="tab" aria-controls="card_panel3" title="GitHub"></label>
+                </div>
+            </div>
             <div id="contact">
                 <form action="#" method="post" novalidate>
                     <h2>
